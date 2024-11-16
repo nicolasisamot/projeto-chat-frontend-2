@@ -1,0 +1,25 @@
+.caixa {
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95vw;
+  height: 95vh;
+  background-color: var(--cinza-claro);
+}
+
+.conteudo {
+  height: 100%;
+  width: 100%;
+}
+
+.gridLinha {
+  display: grid;
+  grid-template-rows: 6rem calc(100% - 6rem);
+}
+.gridColuna {
+  display: grid;
+  grid-template-columns: 25% auto;
+}

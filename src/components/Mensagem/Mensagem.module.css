@@ -1,0 +1,15 @@
+.mensagem {
+  font-size: 1.6rem;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.enviada {
+  align-self: flex-end;
+}
+
+.recebida {
+}

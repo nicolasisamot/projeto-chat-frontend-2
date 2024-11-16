@@ -1,0 +1,7 @@
+.conversa {
+  border-radius: 0 0 20px 0;
+}
+.gridLinha {
+  display: grid;
+  grid-template-rows: 85% 15%;
+}

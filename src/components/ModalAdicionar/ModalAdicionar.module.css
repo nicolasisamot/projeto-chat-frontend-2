@@ -1,0 +1,8 @@
+.modalAdicionar {
+  position: absolute;
+  top: 130%;
+  left: 0%;
+  width: 400px;
+  height: max-content;
+  transform: translate(-97.5%, 0);
+}

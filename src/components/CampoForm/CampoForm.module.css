@@ -1,0 +1,26 @@
+.label,
+.input {
+  display: block;
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.input {
+  padding: 1rem;
+  background-color: var(--cinza-claro);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.campo {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.erro {
+  border: 2px solid var(--vermelho-erro);
+}
+.sucesso {
+  border: 2px solid var(--verde-sucesso);
+}
