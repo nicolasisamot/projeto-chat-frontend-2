@@ -4,5 +4,9 @@
   left: 0%;
   width: 400px;
   height: max-content;
+<<<<<<< HEAD
   transform: translate(-89%, 0);
+=======
+  transform: translate(-97.5%, 0);
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
 }

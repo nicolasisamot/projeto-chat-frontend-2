@@ -1,7 +1,10 @@
 .caixa {
   padding: 1rem;
   display: flex;
+<<<<<<< HEAD
   height: 90%;
+=======
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
   flex-direction: column;
   overflow-y: scroll;
   gap: 1rem;

@@ -1,12 +1,17 @@
 import styles from "./CaixaMensagens.module.css";
 import Mensagem from "../Mensagem/Mensagem";
+<<<<<<< HEAD
 import { useEffect, useContext, useState, useRef } from "react";
+=======
+import { useEffect, useContext, useState } from "react";
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
 import { AuthContext } from "../../contextos/AuthContext";
 import { ChatContext } from "../../contextos/ChatContext";
 
 export default function CaixaMensagens({ conversa, setConversa }) {
   const { socketConectado } = useContext(AuthContext);
   const { conversas, setConversas, conversaAtual } = useContext(ChatContext);
+<<<<<<< HEAD
   const fimRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -21,6 +26,8 @@ export default function CaixaMensagens({ conversa, setConversa }) {
   useEffect(() => {
     scrollToBottom();
   }, [conversa]);
+=======
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
 
   useEffect(() => {
     if (socketConectado) {
@@ -37,7 +44,11 @@ export default function CaixaMensagens({ conversa, setConversa }) {
   }, [socketConectado, conversaAtual]);
 
   return (
+<<<<<<< HEAD
     <div ref={fimRef} className={styles.caixa}>
+=======
+    <div className={styles.caixa}>
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
       {conversa &&
         conversa.map((mensagem) => {
           return (
@@ -52,3 +63,14 @@ export default function CaixaMensagens({ conversa, setConversa }) {
     </div>
   );
 }
+<<<<<<< HEAD
+=======
+
+//<Mensagem
+//       texto="Olá, tudo bem?"
+//       data="10/10/2020 10:10"
+//     isEnviada={false}
+//     />
+//    <Mensagem texto="Sim, e voce?" data="10/10/2020 10:10" isEnviada={true} />
+//    <Mensagem texto="Tudo bem" data="10/10/2020 10:10" isEnviada={false} />
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4

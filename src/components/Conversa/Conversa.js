@@ -51,7 +51,11 @@ export default function Conversa() {
   }, [socketConectado, conversaAtual]);
 
   return (
+<<<<<<< HEAD
     <div className={styles.conversa}>
+=======
+    <div className={styles.conversa + " " + styles.gridLinha}>
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
       <CaixaMensagens conversa={conversa} setConversa={setConversa} />
       <CaixaTextoEnviarMensagem conversa={conversa} setConversa={setConversa} />
     </div>

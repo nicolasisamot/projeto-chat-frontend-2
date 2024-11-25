@@ -1,9 +1,14 @@
 .caixa {
+<<<<<<< HEAD
+=======
+  background-color: white;
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
   border-radius: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+<<<<<<< HEAD
   width: 90vw;
   height: 90vh;
   background-color: var(--cinza-claro);
@@ -12,13 +17,30 @@
 
 .conteudo {
   display: flex;
+=======
+  width: 95vw;
+  height: 95vh;
+  background-color: var(--cinza-claro);
+}
+
+.conteudo {
+  height: 100%;
+  width: 100%;
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
 }
 
 .gridLinha {
   display: grid;
   grid-template-rows: 6rem calc(100% - 6rem);
 }
+<<<<<<< HEAD
 /* .gridColuna {
   display: grid;
   grid-template-columns: 25% auto;
 } */
+=======
+.gridColuna {
+  display: grid;
+  grid-template-columns: 25% auto;
+}
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4

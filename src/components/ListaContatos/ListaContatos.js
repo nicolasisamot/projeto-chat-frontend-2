@@ -52,6 +52,10 @@ export default function ListaContatos() {
               usuarioId={conversa.id}
               nomeUsuario={conversa.usuario}
               conversaId={conversa.conversa_id}
+<<<<<<< HEAD
+=======
+              fotoUsuario="https://github.com/nicolasisamot.png"
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
               novasMensagens={0}
               amigo={true}
             />

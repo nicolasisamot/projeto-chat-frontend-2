@@ -1,5 +1,6 @@
 .conversa {
   border-radius: 0 0 20px 0;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -7,4 +8,10 @@
   gap: 1rem;
   background-color: var(--cinza-claro);
   /* overflow: hidden; */
+=======
+}
+.gridLinha {
+  display: grid;
+  grid-template-rows: 85% 15%;
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
 }

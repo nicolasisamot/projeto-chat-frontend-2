@@ -30,26 +30,39 @@ export default function AuthContextProvider({ children }) {
       navigate("/chat");
     }
   }, [autenticado]);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
   const logout = () => {
     setUsuario(null);
     setToken(null);
     localStorage.removeItem("authToken");
     setAutenticado(false);
+<<<<<<< HEAD
     setTimeout(() => {
       navigate("/login");
     });
+=======
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
   };
 
   useEffect(() => {
     const savedToken = localStorage.getItem("authToken");
     if (savedToken) {
       try {
+<<<<<<< HEAD
         // const decodedToken = jwtDecode(savedToken);
         // setUsuario(decodedToken.usuario);
         // setToken(savedToken);
         // setAutenticado(true);
         login(savedToken);
+=======
+        const decodedToken = jwtDecode(savedToken);
+        setUsuario(decodedToken.usuario);
+        setToken(savedToken);
+        setAutenticado(true);
+>>>>>>> 6d10a3fd3591cb8b4324e4d27d86a4909c4215e4
       } catch (error) {
         //
       }
