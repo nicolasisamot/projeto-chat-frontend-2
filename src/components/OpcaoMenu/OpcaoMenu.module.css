@@ -1,0 +1,14 @@
+.opcaoMenu {
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.opcao {
+  font-size: 1.6rem;
+}
+
+/* .opcaoMenu:hover {
+  background-color: var(--cinza-claro);
+} */

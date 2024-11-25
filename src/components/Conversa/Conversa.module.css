@@ -1,0 +1,10 @@
+.conversa {
+  border-radius: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  gap: 1rem;
+  background-color: var(--cinza-claro);
+  /* overflow: hidden; */
+}

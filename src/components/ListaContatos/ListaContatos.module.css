@@ -1,0 +1,14 @@
+.contatos {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0 0 0 20px;
+  width: 20%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  list-style: none;
+}
+.caixaCardContato {
+  height: 6rem;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.ModalMenu {
+  position: absolute;
+  top: 130%;
+  left: 0%;
+  width: 200px;
+
+  height: max-content;
+  transform: translate(1.5%, 0);
+}
+
+.opcoesMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

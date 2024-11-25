@@ -1,0 +1,16 @@
+.caixa {
+  background-color: white;
+
+  justify-self: end;
+  height: 10%;
+}
+
+.gridColuna {
+  display: grid;
+  grid-template-columns: 80% auto;
+}
+.texto {
+}
+.botao {
+  cursor: pointer;
+}
